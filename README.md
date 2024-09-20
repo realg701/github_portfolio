@@ -6,11 +6,9 @@
 
 # Demo :movie_camera:
 
-![httpsgithub abusaid me](https://github.com/said7388/github-portfolio/assets/77630868/a331f996-1b4d-451a-941f-a15f5ae6de93)
+![localhost_3000_](https://github.com/user-attachments/assets/38923fdf-44bf-4a5a-a0cf-d10addeebbf1)
 
-
-## View live preview [here](https://my-github-portfolio.netlify.app/)
-
+## View live preview [here](https://github-portfolio-phi.vercel.app/)
 ---
 
 # Installation :arrow_down:
@@ -76,30 +74,54 @@ NEXT_PUBLIC_GTM = ""
 Eg:
 
 ```javascript
+import TiktokSquare from "@/public/svgs/TiktokSquare";
+import { BsLinkedin } from "react-icons/bs";
+import {
+  FaFacebookSquare,
+  FaGithubSquare,
+  FaInstagramSquare,
+  FaTwitterSquare,
+  FaYoutubeSquare,
+} from "react-icons/fa";
+
 export const userData = {
-  githubUser: "said7388",
-  devUsername: "said7388",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  resume:
-    "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing",
-  skills: [
-    "React",
-    "NextJS",
-    "Redux",
-    "Express",
-    "NestJS",
-    "MySql",
-    "MongoDB",
-    "Postgres",
-    "Docker",
-    "AWS",
+  githubUser: "realg701",
+  devUsername: "realg701",
+  socials: [
+    {
+      title: "https://github.com/realg701",
+      icon: <FaGithubSquare size={32} />,
+    },
+    {
+      title: "https://www.linkedin.com/in/abdul-haseeb-qadir-6283a9275/",
+      icon: <BsLinkedin size={28} />,
+    },
+    {
+      title: "https://twitter.com/realg701/",
+      icon: <FaTwitterSquare size={32} />,
+    },
+    {
+      title: "https://youtube.com/@realg701",
+      icon: <FaYoutubeSquare size={32} />,
+    },
+    {
+      title: "https://instagram.com/en_ediut",
+      icon: <FaInstagramSquare size={32} />,
+    },
+    {
+      title: "https://www.facebook.com/realg701/",
+      icon: <FaFacebookSquare size={32} />,
+    },
+    { title: "https://tiktok.com/@en_ediut", icon: <TiktokSquare size={28} /> },
   ],
-  timezone: "+6",
+  resume:
+    "https://docs.google.com/document/d/1DjFNn43OjHRhX17MuwYo_ZIfnx6F3yECZZyK5fEe5eQ/edit?usp=sharing",
+  frameworks: ["ReactJS", "NextJS"],
+  libraries: [, "TailwindCSS", "Bootstrap", "MUI"],
+  technologies: ["NextJS", "ReactJS", "ExpressJS"],
+  languages: ["TypeScript", "JavaScript", "HTML", "CSS"],
+  databases: ["MongoDB", "Firebase"],
+  timezone: "+5",
 };
 ```
 
