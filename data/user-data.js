@@ -40,18 +40,6 @@ export const userData = {
   ],
   resume:
     "https://docs.google.com/document/d/1DjFNn43OjHRhX17MuwYo_ZIfnx6F3yECZZyK5fEe5eQ/edit?usp=sharing",
-  skills: [
-    "React",
-    "NextJS",
-    "Redux",
-    "Express",
-    "NestJS",
-    "MySql",
-    "MongoDB",
-    "Postgres",
-    "Docker",
-    "AWS",
-  ],
   frameworks: ["ReactJS", "NextJS"],
   libraries: [, "TailwindCSS", "Bootstrap", "MUI"],
   technologies: ["NextJS", "ReactJS", "ExpressJS"],
