@@ -21,7 +21,6 @@ function HeroSection({ profile }) {
           <p className="text-gray-300 text-sm lg:text-base my-4 lg:my-6 text-center">
             {profile.bio}
           </p>
-
           <div className="w-full flex justify-center items-center gap-5">
             {userData.socials.map((social, index) => (
               <Link

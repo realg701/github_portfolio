@@ -8,7 +8,7 @@ function GitStats() {
   return (
     <div
       id="stats"
-      className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]"
+      className="relative border-t my-12 lg:my-24 border-[#25213b]"
     >
       <SectionTitle title="GitHub Statistics" />
 
