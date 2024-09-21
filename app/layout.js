@@ -21,8 +21,8 @@ export default function RootLayout({ children }) {
             ` ${theme ? "" : "bg-slate-300"} transition-all duration-300`
           }
         >
-          <main className="min-h-screen relative mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white">
-            <Navbar />
+          <Navbar />
+          <main className="min-h-screen relative mt-28 mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white">
             {children}
           </main>
           <Footer />
