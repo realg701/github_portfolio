@@ -1,5 +1,5 @@
 // @flow strict
-import Link from 'next/link';
+import Link from "next/link";
 import { CgGitFork } from "react-icons/cg";
 import { IoStar } from "react-icons/io5";
 
@@ -10,14 +10,21 @@ function Footer() {
         <div className="flex justify-center -z-40">
           <div className="absolute top-0 h-[1px] w-1/2  bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div>
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-between">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-2">
           <p className="text-sm">
-            © GitHub Portfolio by <Link target="_blank" href="https://www.linkedin.com/in/abu-said-bd/" className="text-primary-icon">Abu Said</Link>
+            © GitHub Portfolio by{" "}
+            <Link
+              target="_blank"
+              href="https://www.linkedin.com/in/abdul-haseeb-qadir-6283a9275/"
+              className="text-primary-icon"
+            >
+              Abdul Haseeb (Mr. AnOob) Qadir
+            </Link>
           </p>
           <div className="flex items-center gap-5">
             <Link
               target="_blank"
-              href="https://github.com/said7388/github-portfolio"
+              href="https://github.com/realg701/github_portfolio"
               className="flex items-center gap-2 uppercase hover:text-primary-icon"
             >
               <IoStar />
@@ -25,7 +32,7 @@ function Footer() {
             </Link>
             <Link
               target="_blank"
-              href="https://github.com/said7388/github-portfolio/fork"
+              href="https://github.com/realg701/github_portfolio/fork"
               className="flex items-center gap-2 uppercase hover:text-primary-icon"
             >
               <CgGitFork />
@@ -34,8 +41,8 @@ function Footer() {
           </div>
         </div>
       </div>
-    </div >
+    </div>
   );
-};
+}
 
 export default Footer;
