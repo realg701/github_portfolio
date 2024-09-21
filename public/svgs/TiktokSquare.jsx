@@ -1,12 +1,12 @@
 import * as React from "react";
 const TiktokSquare = (props) => (
   <svg
-    className="rounded bg-teal-500"
+    className="rounded-md bg-teal-500"
+    style={{ borderRadius: 3 }}
     width={props.size}
     height={props.size}
     stroke="black"
     viewBox="0 0 24 24"
-    fill="black"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
