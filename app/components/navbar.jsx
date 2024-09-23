@@ -63,6 +63,16 @@ function Navbar() {
           <li>
             <Link
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
+              href="#language"
+            >
+              <div className="text-sm transition-colors duration-300 hover:text-primary-icon">
+                Languages
+              </div>
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="/#contributions"
             >
               <div className="text-sm transition-colors duration-300 hover:text-primary-icon">
