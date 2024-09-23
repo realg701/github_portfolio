@@ -8,7 +8,7 @@ import { IoLinkSharp } from "react-icons/io5";
 function ProjectCard({ project }) {
   return (
     <Link href={project.html_url} target="_blank">
-      <div className="p-8 h-48 flex flex-col justify-between bg-primary-bg">
+      <div className="p-8 h-48 flex flex-col justify-between bg-primary-bg rounded-lg">
         <div className="">
           <div className="flex justify-between items-center">
             <p className="text-xl truncate font-semibold capitalize text-primary-title">
