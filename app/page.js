@@ -36,9 +36,9 @@ export default async function Home() {
     <>
       <HeroSection profile={profile} />
       <GitStats />
-      <Projects projects={projects} profile={profile} />
       <GitLanguage />
       <Rank />
+      <Projects projects={projects} profile={profile} />
       <Contributions />
     </>
   );
